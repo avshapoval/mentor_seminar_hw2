@@ -1,10 +1,9 @@
-"""
-Парсер данных о квартирах с сайта Cian.ru
-"""
+
 import asyncio
 import csv
 import re
 import random
+
 from typing import List, Dict, Optional
 from playwright.async_api import async_playwright, Page
 
